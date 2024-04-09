@@ -29,11 +29,26 @@
         }
     </style>
     <script>
-        
+        document.addEventListener('DOMContentLoaded', function(){
+            function login(){
+                const username = document.getElementById("username").value;
+                const password = document.getElementById("password").value;
+                
+                if(username === "Bozo99" && password === "korisnik"){
+                    alert("Uspijesno ulogovan");
+                }else{
+                    alert("Pogresni podatci");
+                }
+            }
+            document.getElementById("login").addEventListener("click", login);
+
+        });
     </script>
 </head>
 <body>
     <h1>Welcome!</h1>
+    <input type="text" id="username" placeholder="Korisnicko ime">
+    <input type="text" id="password" placeholder="Korisnicko ime">
     <button id="login">LogIn</button>
 </body>
 </html>
