@@ -10,3 +10,7 @@ def index():
 @app.route("/login")
 def login():
     return render_template("login.html")
+
+@app.route("/pocetna")
+def pocetna():
+    return render_template("pocetna.html")
