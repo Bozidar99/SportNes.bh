@@ -8,6 +8,9 @@ header{
     justify-content:center;
     align-items: center;
 }
+main{
+    font-size: 20px;
+}
 footer{
     position: static;
     background-color: rgb(7, 7, 92);
