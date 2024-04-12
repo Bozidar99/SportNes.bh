@@ -8,6 +8,11 @@ header{
     justify-content:center;
     align-items: center;
 }
+.welcome{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
 main{
     font-size: 20px;
     border: 10px solid black;

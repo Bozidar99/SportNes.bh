@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
     const select = document.querySelector('#news');
-    const para = document.querySelector('p');
+    const para = document.querySelector('#news-text');
 
     select.addEventListener("change", setNews);
 
