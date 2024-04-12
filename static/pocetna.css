@@ -1,3 +1,21 @@
+@keyframes grow{
+    from{
+        font-size: 12px;
+    }
+    to{
+        font-size: 46px;
+    }
+}
+
+@keyframes slideToRight{
+    from{
+        left: -50px;
+    }
+    to{
+        left: 0%;
+    }
+
+}
 header{
     position: static;
     background-color:rgb(7, 7, 92);
@@ -8,11 +26,32 @@ header{
     justify-content:center;
     align-items: center;
 }
+header h1{
+    position: relative;
+    animation-name:grow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+}
 .welcome{
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
+    position: relative;
 }
+#welcome-text{
+    position: relative;
+    left: -50%;
+    animation: slideToRight 4s forwards;
+}
+
+
+
+
 main{
     font-size: 20px;
     border: 10px solid black;
