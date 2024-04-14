@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
         datasets: [{
             label: "Statistika utakmica",
             backgroundColor: ['green', 'orange', 'red'],
-            data: [12,7,5]
+            data: [15,5,12]
         }]
     };
     var options = {
