@@ -173,6 +173,21 @@ img{
     width: 250px;
     height: auto;
 }
+#myChartContainer{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+
+.team-info{
+    margin-right: 20px;
+}
+.team-info img{
+    height: 150px;
+    width: 150px;
+}
 
 footer{
     position: static;
