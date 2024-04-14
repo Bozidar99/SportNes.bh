@@ -14,8 +14,8 @@
     to{
         left: 0%;
     }
-
 }
+
 header{
     position: static;
     background-color:rgb(7, 7, 92);
@@ -59,6 +59,121 @@ main{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.box{
+    overflow: hidden;
+    font-size: 24px;
+    padding: 20px;
+    position: relative;
+    left: -50%;
+    animation: slideToRight 7s forwards;
+}
+img{
+    float: left;
+    margin-right: 10px;
+    width: 300px;
+    height: auto;
+}
+.box2{
+    overflow: hidden;
+    font-size: 24px;
+    padding: 20px;
+    position: relative;
+    left: -50%;
+    animation: slideToRight 9s forwards;
+}
+.box2 img{
+    float: right;
+    margin-right: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.box3{
+    overflow: hidden;
+    font-size: 24px;
+    padding: 20px;
+    position: relative;
+    left: -50%;
+    animation: slideToRight 11s forwards;
+}
+.box3 img{
+    float: left;
+    margin-right: 10px;
+    width: 250px;
+    height: auto;
+}
+.box4{
+    overflow: hidden;
+    font-size: 24px;
+    padding: 20px;
+    position: relative;
+    left: -50%;
+    animation: slideToRight 13s forwards;
+}
+.box4 img{
+    float: right;
+    margin-right: 10px;
+    width: 250px;
+    height: auto;
+}
+.box5{
+    overflow: hidden;
+    font-size: 24px;
+    padding: 20px;
+    position: relative;
+    left: -50%;
+    animation: slideToRight 15s forwards;
+}
+.box5 img{
+    float: left;
+    margin-right: 10px;
+    width: 270px;
+    height: auto;
+}
+.box6{
+    overflow: hidden;
+    font-size: 24px;
+    padding: 20px;
+    position: relative;
+    left: -50%;
+    animation: slideToRight 17s forwards;
+}
+.box6 img{
+    float: right;
+    margin-right: 10px;
+    width: 250px;
+    height: auto;
+}
+.box7{
+    overflow: hidden;
+    font-size: 24px;
+    padding: 20px;
+    position: relative;
+    left: -50%;
+    animation: slideToRight 19s forwards;
+}
+.box7 img{
+    float: left;
+    margin-right: 10px;
+    width: 250px;
+    height: auto;
+}
+.box8{
+    overflow: hidden;
+    font-size: 24px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: -50%;
+    animation: slideToRight 21s forwards;
+}
+.box8 img{
+    float: right;
+    margin-right: 10px;
+    width: 250px;
+    height: auto;
+}
+
 footer{
     position: static;
     background-color: rgb(7, 7, 92);
