@@ -189,6 +189,92 @@ img{
     height: 150px;
     width: 150px;
 }
+#myChartContainer2{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.team-info2{
+    margin-right: 20px;
+}
+.team-info2 img{
+    height: 150px;
+    width: 150px;
+}
+#myChartContainer3{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.team-info3{
+    margin-right: 20px;
+}
+.team-info3 img{
+    height: 150px;
+    width: 150px;
+}
+#myChartContainer4{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.team-info4{
+    margin-right: 20px;
+}
+.team-info4 img{
+    height: 150px;
+    width: 150px;
+}
+#myChartContainer5{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.team-info5{
+    margin-right: 20px;
+}
+.team-info5 img{
+    height: 150px;
+    width: 150px;
+}
+#myChartContainer6{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.team-info6{
+    margin-right: 20px;
+}
+.team-info6 img{
+    height: 150px;
+    width: 150px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tri kolone */
+    grid-gap: 20px; /* Razmak između elemenata */
+}
+
 
 footer{
     position: static;
